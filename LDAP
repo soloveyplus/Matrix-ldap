@@ -39,7 +39,7 @@ apt install ./phpldapadmin_1.2.2-6.3_all.deb
 11. Пароль который придумали на шаге - 5.
 12. Мы видим ou=users нужный для работы уже создан. В нем будем создавать пользователь нашего matrixa
 13. Далее нужно показать matrix, что теперь пароли пользователей он должен брать на LDAP:
-Редактируем орсновной файл - /etc/matrix-synapse/homeserver.yaml  
+Редактируем основной файл - /etc/matrix-synapse/homeserver.yaml  
 Добавляем в конец:
 
 password_providers:
