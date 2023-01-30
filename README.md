@@ -1,1 +1,2 @@
-# Прикрутить LDAP к matrix synapse
+# ansible
+Автоматизация труда с ansible
